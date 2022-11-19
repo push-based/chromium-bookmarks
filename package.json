@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/push-based/chromium-bookmarks#readme",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "puppeteer": "^19.2.2"
   },
   "devDependencies": {
