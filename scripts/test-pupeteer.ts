@@ -4,7 +4,7 @@ import * as pptr from 'puppeteer';
 (async () => {
     const browser = await pptr.launch({
         headless: false,
-        userDataDir: './'
+        userDataDir: './user-data'
     });
     const page = await browser.newPage();
 
