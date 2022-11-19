@@ -1,0 +1,26 @@
+{
+  "name": "chromium-bookmarks",
+  "version": "1.0.0",
+  "description": "Links: \r - https://stackoverflow.com/questions/50884355/how-to-add-bookmarks-in-chromium-chrome-in-automated-fashion\r - https://pptr.dev/api/puppeteer.puppeteerlaunchoptions\r - https://pptr.dev/api/puppeteer.browserlaunchargumentoptions/\r - https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/user_data_dir.md\r -",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node scripts/test-pupeteer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/push-based/chromium-bookmarks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/push-based/chromium-bookmarks/issues"
+  },
+  "homepage": "https://github.com/push-based/chromium-bookmarks#readme",
+  "dependencies": {
+    "puppeteer": "^19.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
